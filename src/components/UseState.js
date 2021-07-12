@@ -7,7 +7,7 @@ function Hook2 () {
         <div>
             <p>Counter: {count}</p>
             <button onClick={()=>{
-                setCount(count + 1)}}>Add 1</button>
+                setCount(count + 3)}}>Add 3</button>
         </div>
     )
 }
