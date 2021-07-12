@@ -56,6 +56,7 @@ function Hook3() {
         Decrase base font size by 10px
       </button>
       <h2>{lunch}{lunch}</h2>
+      <button onClick={() => {setLunch("something else")}}></button>
     </div>
   );
 }
