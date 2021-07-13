@@ -5,9 +5,11 @@ function Hook2 () {
 
     return (
         <div>
-            <p>Three miles boots distance: {count} miles</p>
+
+            <p>Three steps boots: {count}</p>
             <button onClick={()=>{
-                setCount(count + 3)}}>One step</button>
+                setCount(count + 3)}}>Make 3 steps</button>
+
         </div>
     )
 }
