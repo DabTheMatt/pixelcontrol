@@ -4,6 +4,7 @@ function Hook3() {
   const [fruit, setFruit] = useState("yellow");
   const [padding, setPadding] = useState(1);
   const [fontRemSize, setFontRemSize] = useState(16);
+  const [lunch, setLunch] = useState("Hindus");
 
   document.body.style.background = fruit;
   document.body.style.fontSize = `${fontRemSize}px`;
@@ -54,6 +55,8 @@ function Hook3() {
       >
         Decrase base font size by 10px
       </button>
+      <h2>{lunch}{lunch}</h2>
+      <button onClick={() => {setLunch("something else")}}></button>
     </div>
   );
 }
